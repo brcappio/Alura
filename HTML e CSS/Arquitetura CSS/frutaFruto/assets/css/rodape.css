@@ -1,0 +1,21 @@
+.rodape {
+    background: #bfbfbf;
+    color: #8d0606;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+}
+
+@media screen and (min-widht: 0) {
+    .cabecalho{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+}
